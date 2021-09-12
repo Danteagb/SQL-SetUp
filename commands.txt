@@ -1,0 +1,20 @@
+USE twitter
+
+INSERT INTO tweets (tweet,user_id)
+VALUES ('holaaa', 4 )
+
+SELECT * FROM tweets
+
+UPDATE tweets SET tweet = 'cambio de tweet'
+WHERE tweets.id=13;
+
+SELECT * FROM tweets
+
+DELETE FROM tweets
+WHERE tweets.id=15;
+
+SELECT * FROM tweets
+
+
+
+
